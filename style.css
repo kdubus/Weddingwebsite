@@ -1,9 +1,15 @@
+body {
+  background-color: #061951;
+}
+
+
+
 .jumbotron {
   background-image: url("https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/1933793_10154068557962718_784305348435310371_n.jpg?oh=cc3d078ef6fc014f4e90b01f2bacb841&oe=57758D68");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  margin-bottom: 0;
+  margin-bottom: 50px;
   margin-top: 0;
   color: #eceff1;
   text-shadow: grey 0.2em 0.2em 0.2em;
@@ -18,21 +24,39 @@
 
 #details {
   background-color: #6c8c8b;
+  padding-top:50px;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 #registry {
   background-color: #061951;
+  padding-top:50px;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #e9eaed;
 }
 
 #rsvp {
   background-color: #6c8c8b;
+  padding-top:50px;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 #photos {
   margin: 42px;
-  background-color: #d0cecb;
 }
 
-$(document).ready(function() {
-    $('#fullpage').fullpage();
-});
+#well {
+  border-radius: 25px;
+}
+
+img {
+  border-radius: 25px;
+}
+
+
