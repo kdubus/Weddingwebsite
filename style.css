@@ -5,9 +5,10 @@
   background-repeat: no-repeat;
   margin-bottom: 0;
   margin-top: 0;
-  color: #F7FAFE;
-  padding-top: 450px;
-  padding-bottom: 300px; }
+  color: #eceff1;
+  text-shadow: grey 0.2em 0.2em 0.2em;
+  padding-top: 400px;
+  padding-bottom: 200px;
 }
 
 .navbar-inverse {
@@ -19,10 +20,19 @@
   background-color: #6c8c8b;
 }
 
+#registry {
+  background-color: #061951;
+}
+
 #rsvp {
   background-color: #6c8c8b;
 }
 
 #photos {
   margin: 42px;
+  background-color: #d0cecb;
 }
+
+$(document).ready(function() {
+    $('#fullpage').fullpage();
+});
