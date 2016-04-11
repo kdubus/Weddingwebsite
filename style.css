@@ -9,7 +9,7 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  margin-bottom: 50px;
+  margin-bottom: 0;
   margin-top: 0;
   color: #eceff1;
   text-shadow: grey 0.2em 0.2em 0.2em;
@@ -26,7 +26,7 @@ body {
   background-image: url("http://www.neworleansparties.com/thumb/820/460/uploads/gallery/rosys4_1452530254.jpg.pagespeed.ce.elRT-jhsUf.jpg");
   background-size: cover;
   background-position: center center;
-  padding-top:100px;
+  padding-top:130px;
   padding-bottom: 160px;
   margin-bottom: 0;
   margin-top: 0;
@@ -48,12 +48,10 @@ body {
 }
 
 #registry {
-  background-color: #061951;
   padding-top:50px;
   padding-bottom: 50px;
-  margin-bottom: 0;
-  margin-top: 0;
-  color: #e9eaed;
+  margin-right: 45px;
+  margin-left: 45px;
 }
 
 #rsvp {
@@ -68,14 +66,15 @@ body {
   margin: 42px;
 }
 
+#photos img {
+  border-radius: 25px;
+}
+
 .well {
   border-radius: 25px;
   background-color: rgba(208,206,203,0.6);
 }
 
-img {
-  border-radius: 25px;
-}
 
 h1 {
   font-family: 'Bad Script', cursive;
