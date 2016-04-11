@@ -24,13 +24,27 @@ body {
 
 #details {
   background-image: url("http://www.neworleansparties.com/thumb/820/460/uploads/gallery/rosys4_1452530254.jpg.pagespeed.ce.elRT-jhsUf.jpg");
-  background-size:cover;
+  background-size: cover;
   background-position: center center;
   padding-top:100px;
   padding-bottom: 160px;
   margin-bottom: 0;
   margin-top: 0;
   color: black;
+}
+
+#party {
+  background-image: url("https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/12494845_10154068558617718_7731527786002247042_n.jpg?oh=b7ad23cfbb76b64228ff3cf98d3c275e&oe=577573C9");
+  background-size: 100%;
+  background-position: center center;
+  padding-top: 250px;
+  padding-bottom: 160px;
+  color: #123239;
+}
+
+#party h1 {
+  color: #eceff1;
+  text-shadow: grey 0.2em 0.2em 0.2em;
 }
 
 #registry {
@@ -61,6 +75,14 @@ body {
 
 img {
   border-radius: 25px;
+}
+
+h1 {
+  font-family: 'Bad Script', cursive;
+}
+
+h2 {
+  font-family: 'Bad Script', cursive;
 }
 
 
